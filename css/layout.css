@@ -7,6 +7,53 @@
 	width: 90%;
 	max-width: 800px;
 	padding: 2em;
-	border: 1px solid #eee;
+	background-color: #ffffff;
+    opacity: 0.75;
+    display: block;
+
 }
 
+body {
+	background-image: url("img/20131124_44_bk.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+	
+}
+
+.intro {
+	margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/*
+img.align-left {
+    float: left;
+    display: block;
+}
+*/
+
+header, footer {
+    display:block;
+}
+
+footer {
+    margin-top: 1em;
+	margin-right: auto;
+	margin-bottom: 1em;
+	margin-left: auto;
+}
+
+nav, footer {
+    clear: both;
+    background-color: #ffffff;
+}
+
+nav ul {
+    margin: 0px;
+}
+
+nav li {
+    display:inline;
+    margin-right: 40px;
+}
