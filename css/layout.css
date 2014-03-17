@@ -13,13 +13,23 @@
 
 }
 
+/*
 body {
-	background-image: url("img/20131124_44_bk.jpg");
+	background-image: url("../img/home_page_alt.jpg");
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
 	
 }
+*/
+
+/*
+.home {
+    background-image:url("../img/home_page.jpg");
+    background-size: cover;
+    z-index: 10;
+}
+*/
 
 .intro {
 	margin-top: 40px;
@@ -54,7 +64,7 @@ nav, footer {
     background-color: #ffffff;
 }
 
-nav ul {
+header, nav ul {
     margin: 0px;
 }
 
@@ -63,3 +73,11 @@ nav li {
     margin-right: 40px;
 }
 
+.quote {
+    margin-left: -2em;
+    margin-right: -2em;
+    max-width: 800 px;
+	padding: 2em;
+    background-color: #e9e1ff;
+    
+}
