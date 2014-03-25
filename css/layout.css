@@ -81,3 +81,15 @@ nav li {
     background-color: #e9e1ff;
     
 }
+
+a:link {
+    color: #977dd7;
+}
+
+a:visited {
+    color: #75707f;
+}
+
+a:hover {
+    color: #e9e1ff;
+}
