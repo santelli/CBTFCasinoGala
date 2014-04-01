@@ -15,7 +15,21 @@
 	
 }
     </style>
-	
+    
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script>
+      function initialize() {
+        var map_canvas = document.getElementById('map_canvas');
+        var map_options = {
+          center: new google.maps.LatLng(39.102557,-77.085713,17),
+          zoom: 8,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(map_canvas, map_options)
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
 	<meta name="description" content="">
 	<meta name="author" content="">
 
@@ -48,24 +62,14 @@
 	<!-- page content goes inside the container -->
 
 
-		<h1>Get Involved</h1>
+		<h1>Directions</h1>
 
 		<p class="intro">
-			If you want to get more involved contact Jeanne Young. I'm sure she could use the help! Here are some ideas on how.
+            Manor Country Club<br>14901 Carrolton Road<br>Rockville, MD 20853<br>(301) 929-1700
 		</p>
 
-	<h2>Volunteer for the Gala</h2>
-	<p>The Gala needs people to set-up, check guests in, take people's money for silent auction items (sorry, no keeping the money but it will go to fund vital research intiatives so that should make you happy), etc.</p>
+	   <div id="map_canvas"></div>
 	
-	<h2>Silent Auction</h2>
-	<p>Speaking of the silent auction, it needs items to be auctioned. Any ideas? Connections? Know someone who owns a Bed and Breakfast or lives next to a sports star? And of course you can always help by bidding on items!</p>
-	
-	<h2>Volunteer for Future Events</h2>
-	<p>The Childhood Brain Tumor Foundation has more events to help with or participate in. Get more information about events and fundraisers such as our Superheroes 5k by visiting the <a href="http://www.childhoodbraintumor.org/information-for-patients-and-families/events-fundraisers">CBTF website</a>.</p>
-	
-	<h2>Donate</h2>
-	<p>We always appriciate your donations. Donations are completely tax-deductible and help fund reaserach, increase public awareness and improve quality of life for those affected. To donate visit <a href="http://www.childhoodbraintumor.org/support-cbtf-nav">childhoodbraintumor.org</a>. </p>
-
 	</div><!-- end container -->
 
 <footer>
